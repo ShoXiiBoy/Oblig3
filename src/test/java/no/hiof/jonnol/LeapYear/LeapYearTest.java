@@ -16,7 +16,7 @@ public class LeapYearTest {
     @Test
     public void yearShouldNotBeLeapYear() {
         assertFalse(LeapYear.isLeapYear(2100), "Year 2100 should not be a leap year");
-        assertFalse(LeapYear.isLeapYear(2000), "Year 900 should not be a leap year");
+        assertFalse(LeapYear.isLeapYear(1996), "Year 900 should not be a leap year");
 
     }
 
